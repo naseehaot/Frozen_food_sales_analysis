@@ -117,7 +117,7 @@ The tables are connected using primary keys and foreign keys.
 - `Sales_Channels` → `Orders`
 - `Orders` → `Order_Items`
 - `Sales_Channels` → `Expenses`
-- `Sales_Channels` → `Expenses`
+
 
 
 These relationships allow the business data to be connected and analyzed using SQL JOINs.
