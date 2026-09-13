@@ -172,26 +172,49 @@ The SQL analysis was designed to answer the following business questions:
 23. Which sales channels have the strongest performance?
 24. Which products contribute most to overall profitability?
 25. Which product categories provide better margins?
-
 ## 🔍 Key Findings & Insights
 
 The SQL analysis produced the following key business insights:
 
-| Finding                  |              Exact Value |
-| ------------------------ | -----------------------: |
-| Total Revenue            |                  ₹93,780 |
-| Units Sold               |                      309 |
-| Orders                   |                       70 |
-| Gross Profit             |                  ₹35,150 |
-| Gross Margin             |                   37.48% |
-| Operating Expenses       |                  ₹36,950 |
-| Net Profit/Loss          |              **-₹1,800** |
-| Best Channel Revenue     | Direct Website – ₹28,920 |
-| Best Product Revenue     |  Chicken Curry – ₹13,200 |
-| Highest Category Revenue |  Frozen Snacks – ₹33,380 |
-| Highest Profit Margin    |  Frozen Breads – 44.44%  |
-| Highest Expense          |    Electricity – ₹12,150 |
-| Best Month               |          April – ₹21,840 |
+| Finding | Result |
+|---|---:|
+| Total Revenue | ₹93,780 |
+| Units Sold | 309 |
+| Total Orders | 70 |
+| Gross Profit | ₹35,150 |
+| Gross Profit Margin | 37.48% |
+| Operating Expenses | ₹36,950 |
+| Net Profit/Loss | -₹1,800 |
+| Best Sales Channel | Direct Website – ₹28,920 |
+| Highest AOV Channel | Direct Website – ₹1,701.18 |
+| Best Product by Revenue | Chicken Curry – ₹13,200 |
+| Highest Revenue Category | Frozen Snacks – ₹33,380 |
+| Highest Category Profit Margin | Frozen Breads – 44.44% |
+| Highest Expense | Electricity – ₹12,150 |
+| Highest Revenue Month | April – ₹21,840 |
+
+### Key Insights
+
+- The **Direct Website** generated the highest revenue and average order value, indicating strong potential for direct online sales.
+- **Chicken Curry** was the top-performing product by revenue, generating ₹13,200.
+- **Frozen Snacks** generated the highest category revenue at ₹33,380.
+- **Frozen Breads** achieved the highest category profit margin at 44.44%.
+- **April** recorded the highest monthly revenue at ₹21,840.
+- **Electricity** was the largest operating expense at ₹12,150.
+- Although the business generated a **gross profit of ₹35,150**, operating expenses resulted in an overall **net loss of ₹1,800**.
+- The analysis indicates that improving expense control and focusing on high-performing products and channels could help improve overall profitability.
+
+## 💡 Business Recommendations
+
+Based on the SQL analysis, the following recommendations can help improve business performance:
+
+- Focus more on the **Direct Website**, which generated the highest revenue of ₹28,920 and the highest average order value of ₹1,701.18.
+- Promote high-performing products such as **Chicken Curry**, which generated the highest product revenue of ₹13,200.
+- Consider expanding or promoting products in the **Frozen Breads** category, which achieved the highest profit margin of 44.44%.
+- Review major operating expenses, particularly **Electricity (₹12,150)** and **Marketing (₹8,600)**, to identify opportunities for cost reduction.
+- Investigate the **₹1,800 net loss** and improve cost control to convert the existing gross profit into a positive net profit.
+- Analyze the drop in revenue from **April (₹21,840)** to **May (₹16,060)** and identify strategies to maintain consistent monthly sales.
+- Use customer and sales-channel performance data to create targeted promotions and encourage repeat purchases.
 
 ### 💰 Profitability Analysis
 
@@ -202,8 +225,7 @@ SQL was used to evaluate the profitability of the business by combining sales an
 - **Gross Profit** was calculated as `Revenue - Production Cost`.
 - **Profit Margin** was calculated as `(Gross Profit / Revenue) × 100`.
 - **Net Profit/Loss** was calculated by subtracting production costs and operating expenses from total revenue.
-- CTEs were used to organize and simplify profitability analysis at product, category, and channel levels.
-
+- CTEs were used to organize and simplify analysis at product, customer, channel, monthly, and category levels.
 ## 📝 Conclusion
 
 The **Frozen Food Business – Sales & Profitability Analysis** project strengthened my understanding of SQL fundamentals and relational database concepts.
@@ -211,6 +233,20 @@ The **Frozen Food Business – Sales & Profitability Analysis** project strength
 This project provided hands-on experience with **database creation, DDL and DML operations, primary and foreign keys, table relationships, data manipulation, aggregations, JOINs, subqueries, and CTEs**.
 
 It also helped me understand how SQL can be used to transform transactional data into meaningful business insights related to **sales performance, product profitability, customer behavior, operating expenses, and overall business profitability**.
+## 📚 Key Learnings
+
+Through this project, I learned:
+
+- How to design and create a relational database using SQL.
+- How to use primary keys and foreign keys to establish table relationships.
+- How to perform data manipulation using SQL queries.
+- How to use `JOINs` to combine data from multiple tables.
+- How to use aggregate functions such as `SUM`, `COUNT`, and `AVG` for analysis.
+- How to use `GROUP BY`, `ORDER BY`, and filtering techniques to analyze business data.
+- How to calculate revenue, production cost, gross profit, profit margin, and net profit using SQL.
+- How to use subqueries and CTEs to structure complex analysis.
+- How to translate business questions into SQL queries and meaningful insights.
+- How SQL can support data-driven business decision-making.
 ## 👩‍💻 Author
 
 **Naseeha Farzana**
