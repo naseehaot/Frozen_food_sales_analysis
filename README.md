@@ -193,10 +193,24 @@ The SQL analysis produced the following key business insights:
 | Highest Expense          |    Electricity – ₹12,150 |
 | Best Month               |          April – ₹21,840 |
 
-## ⚠️ Assumptions & Limitations
+### 💰 Profitability Analysis
 
-- The dataset is fictional and created for educational and portfolio purposes.
-- The analysis is based on the available transactional data from January to May 2026.
+SQL was used to evaluate the profitability of the business by combining sales and production cost data.
+
+- **Revenue** was calculated using `quantity × unit_price`.
+- **Production Cost** was calculated using `quantity × cost_per_unit`.
+- **Gross Profit** was calculated as `Revenue - Production Cost`.
+- **Profit Margin** was calculated as `(Gross Profit / Revenue) × 100`.
+- **Net Profit/Loss** was calculated by subtracting production costs and operating expenses from total revenue.
+- CTEs were used to organize and simplify profitability analysis at product, category, and channel levels.
+
+## 📝 Conclusion
+
+The **Frozen Food Business – Sales & Profitability Analysis** project strengthened my understanding of SQL fundamentals and relational database concepts.
+
+This project provided hands-on experience with **database creation, DDL and DML operations, primary and foreign keys, table relationships, data manipulation, aggregations, JOINs, subqueries, and CTEs**.
+
+It also helped me understand how SQL can be used to transform transactional data into meaningful business insights related to **sales performance, product profitability, customer behavior, operating expenses, and overall business profitability**.
 ## 👩‍💻 Author
 
 **Naseeha Farzana**
