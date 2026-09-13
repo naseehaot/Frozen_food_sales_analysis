@@ -121,6 +121,9 @@ The tables are connected using primary keys and foreign keys.
 
 
 These relationships allow the business data to be connected and analyzed using SQL JOINs.
+### Entity Relationship Diagram
+
+![Frozen Food Database ER Diagram](ER_Diagram.png)
 
 
 ## 📊 SQL Analysis
