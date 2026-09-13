@@ -189,7 +189,7 @@ The SQL analysis produced the following key business insights:
 | Best Channel Revenue     | Direct Website – ₹28,920 |
 | Best Product Revenue     |  Chicken Curry – ₹13,200 |
 | Highest Category Revenue |  Frozen Snacks – ₹33,380 |
-|| Highest Profit Margin   |  Frozen Breads – 44.44%  |
+| Highest Profit Margin    |  Frozen Breads – 44.44%  |
 | Highest Expense          |    Electricity – ₹12,150 |
 | Best Month               |          April – ₹21,840 |
 
